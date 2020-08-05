@@ -21,6 +21,8 @@ public void doLogin() {
 	driver.get("http://gmail.com");
 	driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("gugulothchakradhar1994");
 	driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();
+	
+	//added new projects
 	/*WebDriverWait wait = new WebDriverWait (driver, 10);
 	WebElement password= driver.findElement(By.name("password"));
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
